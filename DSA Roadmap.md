@@ -18,7 +18,7 @@ Learn how data is stored and organized.
 
 ### 2.1 🧱 Linear Data Structures
 Sequential organization of data.
-### 🧱 Linear Data Structures
+
 
 **1. Arrays (Static & Dynamic)**
 - [ ] **Basics:** Understanding contiguous memory allocation & Indexing.
