@@ -112,6 +112,10 @@ Master the basic operations for all the structures above.
 
 ---
 
+
+
+
+
 ## 🔍 Phase 3: Traversal & Searching
 How to navigate through your data structures.
 
