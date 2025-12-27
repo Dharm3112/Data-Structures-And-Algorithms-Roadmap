@@ -16,12 +16,42 @@ Before diving into DSA, ensure you are comfortable with the syntax and basics of
 ## 🏗️ Phase 2: Data Structures (The Building Blocks)
 Learn how data is stored and organized.
 
-### 2.1 Linear Data Structures
+### 2.1 🧱 Linear Data Structures
 Sequential organization of data.
-- [ ] **Arrays** (Static & Dynamic)
-- [ ] **Linked Lists** (Singly, Doubly, Circular)
-- [ ] **Stacks** (LIFO principle)
-- [ ] **Queues** (FIFO principle)
+### 🧱 Linear Data Structures
+
+**1. Arrays (Static & Dynamic)**
+- [ ] **Basics:** Understanding contiguous memory allocation & Indexing.
+- [ ] **Operations:** Insert, Delete, Update, Traversal ($O(1)$ vs $O(N)$).
+- [ ] **Dynamic Arrays:** Implementing automatic resizing (like `ArrayList` in Java or `vector` in C++).
+- [ ] **2D Arrays / Matrices:** Row-major vs Column-major order.
+- [ ] **Techniques:** Prefix Sum Arrays, Sliding Window on Arrays.
+
+**2. Linked Lists**
+- [ ] **Singly Linked List:** Node structure (Data + Next Pointer).
+- [ ] **Doubly Linked List:** Handling `Prev` and `Next` pointers.
+- [ ] **Circular Linked List:** Last node pointing back to Head.
+- [ ] **Core Operations:**
+    - [ ] Insertion (Head, Tail, Middle).
+    - [ ] Deletion (Head, Tail, Middle).
+    - [ ] Reversing a Linked List (Iterative & Recursive).
+- [ ] **"Runner" Technique:** Fast & Slow pointers (Tortoise & Hare) for finding middle or detecting cycles.
+
+**3. Stacks (LIFO - Last In, First Out)**
+- [ ] **Implementation:** Using Arrays vs. Using Linked Lists.
+- [ ] **Core Operations:** Push, Pop, Peek/Top, IsEmpty.
+- [ ] **Monotonic Stack:** Finding "Next Greater Element" or "Previous Smaller Element".
+- [ ] **Applications:**
+    - [ ] Valid Parentheses checking `()[]{}`.
+    - [ ] Expression Conversion (Infix to Postfix/Prefix).
+    - [ ] Recursion Stack visualization.
+
+**4. Queues (FIFO - First In, First Out)**
+- [ ] **Implementation:** Using Arrays vs. Linked Lists.
+- [ ] **Core Operations:** Enqueue (Add), Dequeue (Remove), Front, Rear.
+- [ ] **Circular Queue:** Implementing a Ring Buffer (using modulo operator `%`).
+- [ ] **Double-Ended Queue (Deque):** Insertion/Deletion at both ends.
+- [ ] **Priority Queue:** (Introduction only) Elements processed by priority, not arrival.
 
 ### 2.2 Non-Linear Data Structures
 Hierarchical or interconnected organization of data.
