@@ -55,7 +55,6 @@ Sequential organization of data.
 ### 2.2 🌳 Non-Linear Data Structures
 Hierarchical or interconnected organization of data.
 
-
 **1. Trees (Hierarchical Data)**
 - [ ] **Binary Trees (General):**
     - [ ] **Structure:** Root, Left Child, Right Child, Leaf Nodes.
