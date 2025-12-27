@@ -54,7 +54,49 @@ Sequential organization of data.
 
 ### 2.2 Non-Linear Data Structures
 Hierarchical or interconnected organization of data.
+### 🌳 Non-Linear Data Structures
 
+**1. Trees (Hierarchical Data)**
+- [ ] **Binary Trees (General):**
+    - [ ] **Structure:** Root, Left Child, Right Child, Leaf Nodes.
+    - [ ] **Types:** Full, Complete, Perfect, Balanced Binary Trees.
+    - [ ] **Traversals:**
+        - [ ] Depth-First: Pre-order, In-order, Post-order (Iterative & Recursive).
+        - [ ] Breadth-First: Level-order traversal (using Queue).
+    - [ ] **Standard Problems:** Height of tree, Diameter of tree, Lowest Common Ancestor (LCA).
+
+- [ ] **Binary Search Trees (BST):**
+    - [ ] **Property:** Left < Root < Right.
+    - [ ] **Operations:** Search, Insert, Delete ($O(\log N)$ average).
+    - [ ] **Validation:** Checking if a Binary Tree is a valid BST.
+    - [ ] **Balancing (Concept):** Understanding why unbalanced trees degrade to Linked Lists ($O(N)$).
+
+- [ ] **Heaps (Priority Queues):**
+    - [ ] **Types:** Min-Heap (smallest at top) vs. Max-Heap (largest at top).
+    - [ ] **Implementation:** Binary Heap using Arrays (Index math: `2i+1`, `2i+2`).
+    - [ ] **Operations:** Push, Pop (Extract Min/Max), Heapify, Decrease Key.
+    - [ ] **Usage:** Finding "K-th" largest/smallest elements efficiently.
+
+**2. Graphs (Network Data)**
+- [ ] **Representation (How to store them):**
+    - [ ] **Adjacency Matrix:** 2D Array (Good for dense graphs).
+    - [ ] **Adjacency List:** Array of Lists/Vectors (Standard for interviews).
+
+- [ ] **Graph Types:**
+    - [ ] **Directed:** One-way streets (e.g., Web page links).
+    - [ ] **Undirected:** Two-way streets (e.g., Facebook friends).
+    - [ ] **Weighted:** Edges have cost/distance (e.g., Google Maps).
+    - [ ] **Cyclic vs. Acyclic:** Detection of loops.
+
+- [ ] **Core Algorithms:**
+    - [ ] **Traversal:** BFS (Shortest path in unweighted) vs. DFS (Path finding/Backtracking).
+    - [ ] **Cycle Detection:** Using DFS (Recursion stack) or Disjoint Set (Union-Find).
+    - [ ] **Topological Sort:** Ordering tasks with dependencies (Directed Acyclic Graphs only).
+
+- [ ] **Advanced Graph Algorithms (The "Hard" Questions):**
+    - [ ] **Dijkstra’s Algorithm:** Shortest path in weighted graphs (No negative weights).
+    - [ ] **Bellman-Ford:** Shortest path with negative weights.
+    - [ ] **Prim’s / Kruskal’s:** Minimum Spanning Tree (MST).
 
 ### 2.3 CRUD Operations
 Master the basic operations for all the structures above.
