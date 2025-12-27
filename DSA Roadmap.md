@@ -237,6 +237,10 @@ Techniques to rearrange data in a specific order.
 - [ ] **IntroSort** (Quick, Heap & Insertion hybrid - C++ default)
 ---
 
+
+
+
+
 ## 🧠 Phase 5: Core Algorithmic Concepts
 Foundational concepts for solving complex problems.
 
@@ -246,6 +250,10 @@ Foundational concepts for solving complex problems.
 
 ---
 
+
+
+
+
 ## ⚡ Phase 6: Optimization Techniques (Problem Solving Patterns)
 These are specific patterns frequently asked in coding interviews to optimize solutions.
 
@@ -254,6 +262,10 @@ These are specific patterns frequently asked in coding interviews to optimize so
 - [ ] **Prefix / Suffix Sums** (Pre-computation for range queries)
 
 ---
+
+
+
+
 
 ## 💼 Phase 7: Interview Preparation
 Bringing it all together.
