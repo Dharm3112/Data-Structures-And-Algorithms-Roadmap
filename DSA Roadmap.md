@@ -244,9 +244,48 @@ Techniques to rearrange data in a specific order.
 ## 🧠 Phase 5: Core Algorithmic Concepts
 Foundational concepts for solving complex problems.
 
-- [ ] **Recursion** (Functions calling themselves)
-- [ ] **Backtracking** (Solving incrementally, removing failed solutions)
-- [ ] **Dynamic Programming (DP)** (Breaking problems into sub-problems)
+
+
+**1. Recursion**
+*The art of a function calling itself to solve smaller instances of the same problem.*
+- [ ] **The Three Laws:**
+    1. **Base Case:** The condition to stop recursion (prevents infinite loops).
+    2. **Logic/Action:** The operation performed at the current step.
+    3. **Recursive Step:** Calling the function with modified parameters (moving towards the base case).
+- [ ] **Memory Model:** Understanding the **Call Stack** and "Stack Overflow" errors.
+- [ ] **Tail Recursion:** Writing recursion so it can be optimized by the compiler (calling itself as the very last action).
+- [ ] **Classic Problems:** Factorial, Fibonacci, Tower of Hanoi.
+
+
+
+**2. Backtracking**
+*A "brute-force" technique that builds a solution incrementally and abandons ("backtracks") a path as soon as it determines the path cannot lead to a valid solution.*
+- [ ] **The Pattern:**
+    1. **Choose:** Make a choice.
+    2. **Explore:** Recurse with that choice.
+    3. **Un-choose:** Undo the choice (backtrack) to try the next option.
+- [ ] **Pruning:** Optimizing by cutting off branches of the search tree that are clearly invalid early.
+- [ ] **Classic Problems:**
+    - [ ] N-Queens Problem (Placing N queens on a chessboard).
+    - [ ] Sudoku Solver.
+    - [ ] Generating all Permutations/Subsets of a list.
+    - [ ] Rat in a Maze.
+
+
+
+**3. Dynamic Programming (DP)**
+*Optimizing recursion by storing results of expensive function calls and re-using them later (Time-Space Tradeoff).*
+- [ ] **Core Properties:**
+    - [ ] **Overlapping Subproblems:** The problem breaks down into smaller problems that are repeated (e.g., Fibonacci calculating `fib(3)` multiple times).
+    - [ ] **Optimal Substructure:** The optimal solution can be constructed from optimal solutions of its subproblems.
+- [ ] **Two Approaches:**
+    - [ ] **Memoization (Top-Down):** Recursive + Caching (storing results in a Hash Map/Array).
+    - [ ] **Tabulation (Bottom-Up):** Iterative + Table filling (building the solution from the smallest base case up).
+- [ ] **Classic Patterns:**
+    - [ ] **1D DP:** Climbing Stairs, House Robber.
+    - [ ] **2D DP (Grid):** Unique Paths, Minimum Path Sum.
+    - [ ] **Knapsack Pattern:** 0/1 Knapsack, Unbounded Knapsack.
+    - [ ] **String DP:** Longest Common Subsequence (LCS), Edit Distance.
 
 ---
 
