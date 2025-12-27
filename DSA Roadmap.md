@@ -161,13 +161,57 @@ How to navigate through your data structures.
 
 
 
-### 3.2 Traversal Techniques
-- [ ] **In-order Traversal** (Left, Root, Right)
-- [ ] **Pre-order Traversal** (Root, Left, Right)
-- [ ] **Post-order Traversal** (Left, Right, Root)
+### 3.2 🔄 Tree Traversal Techniques
+### 🔄 Tree Traversal Algorithms
+
+**1. Depth-First Traversals (DFS Variants)**
+*These traversals go as deep as possible down one branch before backtracking.*
+
+- [ ] **In-order Traversal (Left → Root → Right)**
+    - [ ] **Process:** Visit Left Subtree, then Visit Node, then Visit Right Subtree.
+    - [ ] **Key Property:** On a **Binary Search Tree (BST)**, this retrieves data in **sorted (ascending) order**.
+    - [ ] **Implementation:**
+        - [ ] Recursive (Standard 3-line function).
+        - [ ] Iterative (Requires a **Stack**).
+
+- [ ] **Pre-order Traversal (Root → Left → Right)**
+    - [ ] **Process:** Visit Node, then Visit Left Subtree, then Visit Right Subtree.
+    - [ ] **Key Use Case:** Great for **copying** a tree or generating a prefix expression (Polish notation). You see the structure "from the top down".
+    - [ ] **Implementation:**
+        - [ ] Recursive.
+        - [ ] Iterative (Stack-based; Push Right child, then Left child).
+
+- [ ] **Post-order Traversal (Left → Right → Root)**
+    - [ ] **Process:** Visit Left Subtree, then Visit Right Subtree, then Visit Node.
+    - [ ] **Key Use Case:** Great for **deleting** a tree (delete children before deleting the parent) or generating postfix expressions.
+    - [ ] **Implementation:**
+        - [ ] Recursive.
+        - [ ] Iterative (Trickier; often uses 2 Stacks or a "visited" flag).
+
+
+
+**2. Breadth-First Traversal (BFS Variant)**
+*This traversal visits nodes level-by-level, from top to bottom, left to right.*
+
 - [ ] **Level-order Traversal**
+    - [ ] **Process:** Visit Root (Level 0), then all nodes at Level 1, then all nodes at Level 2, etc.
+    - [ ] **Data Structure:** Requires a **Queue** (FIFO).
+    - [ ] **Key Use Cases:**
+        - [ ] Printing a tree structure visually.
+        - [ ] Finding the "Right Side View" or "Left Side View" of a tree.
+        - [ ] Finding the maximum width of a tree.
+    - [ ] **Pattern:**
+        1. Add Root to Queue.
+        2. While Queue is not empty:
+        3. Pop Node → Print it.
+        4. Push Left Child (if exists).
+        5. Push Right Child (if exists).
 
 ---
+
+
+
+
 
 ## 🔢 Phase 4: Sorting Algorithms
 Techniques to rearrange data in a specific order.
