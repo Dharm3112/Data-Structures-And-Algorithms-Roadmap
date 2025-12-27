@@ -130,7 +130,6 @@ How to navigate through your data structures.
     - [ ] **Search on Answer:** Using Binary Search to find the optimal solution (e.g., "Minimum capacity to ship packages").
 
 
-
 **3. Depth First Search (DFS)**
 - [ ] **Philosophy:** "Go deep before going wide." Explore a branch as far as possible, then backtrack.
 - [ ] **Data Structure:** Uses a **Stack** (or the Call Stack via Recursion).
