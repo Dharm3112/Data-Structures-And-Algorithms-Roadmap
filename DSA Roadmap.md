@@ -111,7 +111,6 @@ How to navigate through your data structures.
 
 ### 3.1 🔍 Searching Algorithms
 
-
 **1. Linear Search**
 - [ ] **Method:** Iterate through the collection element by element.
 - [ ] **Use Case:** Unsorted data or very small datasets.
