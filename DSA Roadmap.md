@@ -54,8 +54,7 @@ Sequential organization of data.
 
 ### 2.2 Non-Linear Data Structures
 Hierarchical or interconnected organization of data.
-- [ ] **Trees** (Binary Trees, BST, Heaps)
-- [ ] **Graphs** (Directed, Undirected, Weighted)
+
 
 ### 2.3 CRUD Operations
 Master the basic operations for all the structures above.
