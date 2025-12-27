@@ -162,7 +162,7 @@ How to navigate through your data structures.
 
 
 ### 3.2 🔄 Tree Traversal Techniques
-### 🔄 Tree Traversal Algorithms
+
 
 **1. Depth-First Traversals (DFS Variants)**
 *These traversals go as deep as possible down one branch before backtracking.*
