@@ -24,6 +24,3 @@ My journey mastering Data Structures and Algorithms, organized by topic.
 
 ---
 *🚀 "Talk is cheap. Show me the code."*
-### Next Step
-
-Would you like me to generate a **folder structure** for your computer that matches this list so you can start coding immediately?
