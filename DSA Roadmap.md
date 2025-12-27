@@ -7,7 +7,7 @@ This roadmap is designed to take you from the basics of programming to advanced 
 ## 🏁 Phase 1: The Prerequisites
 Before diving into DSA, ensure you are comfortable with the syntax and basics of one coding language.
 
-- [ ] **Choose a Programming Language** (Python, Java, C++, JavaScript, etc.)
+- [x] **Choose a Programming Language** (Python, Java, C++, JavaScript, etc.)
 - [ ] Understand Variables, Loops, and Conditions
 - [ ] Understand Functions and Classes
 
