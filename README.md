@@ -2,7 +2,7 @@
 
 My journey mastering Data Structures and Algorithms, organized by topic.
 
-![Roadmap View](roadmap.png)
+![Roadmap View]([roadmap.png](https://github.com/Dharm3112/Data-Structures-And-Algorithms-Roadmap/blob/main/DSA%20Roadmap.svg))
 
 ## 📌 The Checklist
 
