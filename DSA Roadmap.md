@@ -109,12 +109,45 @@ Master the basic operations for all the structures above.
 ## 🔍 Phase 3: Traversal & Searching
 How to navigate through your data structures.
 
-### 3.1 Searching Algorithms
-- [ ] **Linear Search** (Simple iteration)
-- [ ] **Binary Search** (Divide and conquer - for sorted data)
-- [ ] **Depth First Search (DFS)** (Stack-based graph/tree traversal)
-- [ ] **Breadth First Search (BFS)** (Queue-based graph/tree traversal)
+### 3.1 🔍 Searching Algorithms
 
+
+**1. Linear Search**
+- [ ] **Method:** Iterate through the collection element by element.
+- [ ] **Use Case:** Unsorted data or very small datasets.
+- [ ] **Complexity:** Time: $O(N)$ | Space: $O(1)$.
+- [ ] **Optimization:** Sentinel Linear Search (removes one check inside the loop).
+
+**2. Binary Search (Divide & Conquer)**
+- [ ] **Pre-requisite:** Data **must** be sorted.
+- [ ] **Core Logic:** Compare target with `mid`; discard half the search space.
+- [ ] **Implementation:**
+    - [ ] **Iterative:** Using `while(low <= high)` loop (Preferred to avoid stack overflow).
+    - [ ] **Recursive:** Function calls itself with new bounds.
+    - [ ] **Bug-Free Mid:** Using `mid = low + (high - low) / 2` to prevent integer overflow.
+- [ ] **Advanced Patterns:**
+    - [ ] **Lower Bound:** Finding the *first* occurrence of a value.
+    - [ ] **Upper Bound:** Finding the first value *greater* than target.
+    - [ ] **Search on Answer:** Using Binary Search to find the optimal solution (e.g., "Minimum capacity to ship packages").
+
+
+
+**3. Depth First Search (DFS)**
+- [ ] **Philosophy:** "Go deep before going wide." Explore a branch as far as possible, then backtrack.
+- [ ] **Data Structure:** Uses a **Stack** (or the Call Stack via Recursion).
+- [ ] **Graph/Tree Applications:**
+    - [ ] **Path Finding:** Finding *any* path between two nodes (e.g., Solving a Maze).
+    - [ ] **Cycle Detection:** Checking if a graph contains a loop.
+    - [ ] **Topological Sort:** Scheduling tasks where order matters.
+    - [ ] **Connected Components:** Counting islands in a grid.
+
+**4. Breadth First Search (BFS)**
+- [ ] **Philosophy:** "Go wide before going deep." Explore all immediate neighbors before moving to the next level.
+- [ ] **Data Structure:** Uses a **Queue** (FIFO).
+- [ ] **Graph/Tree Applications:**
+    - [ ] **Level Order Traversal:** Printing a tree row by row.
+    - [ ] **Shortest Path (Unweighted):** Finding the shortest distance in a graph where all edges have equal weight (Critical Interview Question).
+    - [ ] **Social Networks:** Finding "Friends of Friends" (2nd degree connections).
 ### 3.2 Traversal Techniques
 - [ ] **In-order Traversal** (Left, Root, Right)
 - [ ] **Pre-order Traversal** (Root, Left, Right)
