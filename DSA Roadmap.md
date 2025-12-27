@@ -57,12 +57,26 @@ How to navigate through your data structures.
 ## 🔢 Phase 4: Sorting Algorithms
 Techniques to rearrange data in a specific order.
 
+**Basic & Educational**
 - [ ] **Bubble Sort** (Simple, pairwise swapping)
-- [ ] **Merge Sort** (Divide and conquer, stable)
-- [ ] **Counting Sort** (Integer sorting based on keys)
-- [ ] **Quick Sort** (Pivot-based partitioning)
-- [ ] **Insertion/Selection Sort**
+- [ ] **Selection Sort** (Finds minimum, places at start)
+- [ ] **Insertion Sort** (Builds sorted list one-by-one)
+- [ ] **Cycle Sort** (Minimizes memory writes)
 
+**Efficient ($O(N \log N)$)**
+- [ ] **Merge Sort** (Divide and conquer, stable)
+- [ ] **Quick Sort** (Pivot-based partitioning)
+- [ ] **Heap Sort** (Uses binary heap data structure)
+- [ ] **Shell Sort** (Generalized insertion sort)
+
+**Non-Comparison / Linear ($O(N)$)**
+- [ ] **Counting Sort** (Integer sorting based on keys)
+- [ ] **Radix Sort** (Sorts digit by digit)
+- [ ] **Bucket Sort** (Distributes elements into buckets)
+
+**Hybrid (Real-World Defaults)**
+- [ ] **TimSort** (Merge & Insertion hybrid - Python/Java default)
+- [ ] **IntroSort** (Quick, Heap & Insertion hybrid - C++ default)
 ---
 
 ## 🧠 Phase 5: Core Algorithmic Concepts
