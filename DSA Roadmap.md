@@ -351,82 +351,6 @@ These are specific patterns frequently asked in coding interviews to optimize so
 
 
 
-
-## 💼 Phase 7: Interview Preparation
-Bringing it all together.
-
-### 💼 Interview Preparation
-
-**1. Strategic Problem Solving (The "Grind")**
-*Don't just solve random problems; solve patterns.*
-- [ ] **LeetCode / HackerRank:**
-    - [ ] **Blind 75 / NeetCode 150:** Focus on these curated lists. They cover 90% of interview patterns.
-    - [ ] **Frequency:** Solve 1-2 problems daily. Consistency > Intensity.
-    - [ ] **Topic-wise vs. Random:** Start topic-wise (e.g., 10 Array problems), then switch to "Random" to simulate real interviews where you don't know the topic.
-- [ ] **CodeForces / CodeChef (Optional):**
-    - [ ] Good for improving speed and handling edge cases, but often harder than standard job interviews.
-- [ ] **The "15-Minute Rule":** If you are stuck for 15 minutes without an idea, look at the solution logic (not the code), understand it, close it, and try to write it yourself.
-
-**2. Time Complexity Analysis (Big O Notation)**
-
-### ⏳ Time Complexity Analysis (Master List)
-
-**1. The Three Asymptotic Notations**
-*To fully understand an algorithm, you must know all three bounds, though Big O is the most discussed.*
-
-- [ ] **Big O Notation ($O$) - Upper Bound (Worst Case)**
-    - "The algorithm will never take longer than this."
-    - Used to guarantee performance limits (e.g., "This sort takes at most $O(N^2)$").
-- [ ] **Big Omega Notation ($\Omega$) - Lower Bound (Best Case)**
-    - "The algorithm will never be faster than this."
-    - Example: The best case for Bubble Sort is $\Omega(N)$ (already sorted).
-- [ ] **Big Theta Notation ($\Theta$) - Tight Bound (Average Case)**
-    - "The algorithm typically runs exactly like this."
-    - Used when the Best and Worst cases are roughly the same complexity.
-
-**2. Complexity Hierarchy (Fastest to Slowest)**
-*Memorize this order. If your solution is lower on this list than the expected solution, you will likely get a "Time Limit Exceeded" (TLE).*
-
-| Notation | Name | Example Algorithms |
-| :--- | :--- | :--- |
-| **$O(1)$** | **Constant** | Accessing Array Index, Hash Map Lookup |
-| **$O(\log N)$** | **Logarithmic** | Binary Search |
-| **$O(\sqrt{N})$** | **Square Root** | Prime Factors, Two Crystal Balls |
-| **$O(N)$** | **Linear** | Looping through an array, Linear Search |
-| **$O(N \log N)$** | **Linearithmic** | Merge Sort, Heap Sort, Quick Sort |
-| **$O(N^2)$** | **Quadratic** | Nested Loops, Bubble/Insertion Sort |
-| **$O(N^3)$** | **Cubic** | 3 Nested Loops, Matrix Multiplication |
-| **$O(2^N)$** | **Exponential** | Recursion (Fibonacci), Power Set |
-| **$O(N!)$** | **Factorial** | Permutations, Traveling Salesman Problem |
-
-
-
-**3. Case Analysis (Real World Application)**
-- [ ] **Best Case:** The ideal input (e.g., Sorting an already sorted array). *Rarely used for decisions.*
-- [ ] **Average Case:** Random input. *Most practical metric.*
-- [ ] **Worst Case:** The "Killer" input (e.g., Quicksort on a sorted array with bad pivot). *Most critical for stability.*
-
-
-**3. Space Complexity Analysis**
-*Often neglected, but critical for "Optimization" questions.*
-- [ ] **Auxiliary Space:** Extra memory you use (Arrays, Hash Maps).
-- [ ] **Stack Space:** Memory used by recursion (Call Stack).
-- [ ] **In-Place Algorithms:** Algorithms that use $O(1)$ extra space (modifying the input array directly).
-
-**4. Mock Interviews**
-*Coding on a whiteboard/Google Doc is very different from an IDE with auto-complete.*
-- [ ] **Behavioral Round:**
-    - [ ] **STAR Method:** Situation, Task, Action, Result (for "Tell me about a time..." questions).
-    - [ ] Prepare an "Elevator Pitch" (Introduction).
-- [ ] **Technical Mock Rounds:**
-    - [ ] **Pramp / Interviewing.io:** Platforms to practice with peers or engineers.
-    - [ ] **"Rubber Duck" Debugging:** Explain your code out loud line-by-line as if teaching a child.
-    - [ ] **Whiteboard Coding:** Practice writing code without syntax highlighting or a compiler.
-
-
-
-
-
 ### 💼 Phase 7: Interview Preparation & Complexity Analysis
 
 **1. Strategic Problem Solving (The "Grind")**
@@ -443,9 +367,16 @@ Bringing it all together.
 *You must be able to state the complexity of your code immediately after writing it.*
 
 **A. The Three Asymptotic Notations**
-- [ ] **Big O Notation ($O$) - Upper Bound (Worst Case):** The algorithm will never take longer than this. *Used to guarantee performance limits.*
-- [ ] **Big Omega Notation ($\Omega$) - Lower Bound (Best Case):** The algorithm will never be faster than this.
-- [ ] **Big Theta Notation ($\Theta$) - Tight Bound (Average Case):** The algorithm typically runs exactly like this.
+- [ ] **Big O Notation ($O$) - Upper Bound (Worst Case)**
+    - "The algorithm will never take longer than this."
+    - Used to guarantee performance limits (e.g., "This sort takes at most $O(N^2)$").
+- [ ] **Big Omega Notation ($\Omega$) - Lower Bound (Best Case)**
+    - "The algorithm will never be faster than this."
+    - Example: The best case for Bubble Sort is $\Omega(N)$ (already sorted).
+- [ ] **Big Theta Notation ($\Theta$) - Tight Bound (Average Case)**
+    - "The algorithm typically runs exactly like this."
+    - Used when the Best and Worst cases are roughly the same complexity.
+
 
 **B. Complexity Hierarchy (Fastest to Slowest)**
 *Memorize this order. If your solution is lower on this list than the expected solution, you will likely get a "Time Limit Exceeded" (TLE).*
