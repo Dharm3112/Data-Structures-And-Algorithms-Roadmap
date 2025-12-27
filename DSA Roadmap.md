@@ -119,6 +119,8 @@ Master the basic operations for all the structures above.
 ## 🔍 Phase 3: Traversal & Searching
 How to navigate through your data structures.
 
+
+
 ### 3.1 🔍 Searching Algorithms
 
 **1. Linear Search**
@@ -156,6 +158,9 @@ How to navigate through your data structures.
     - [ ] **Level Order Traversal:** Printing a tree row by row.
     - [ ] **Shortest Path (Unweighted):** Finding the shortest distance in a graph where all edges have equal weight (Critical Interview Question).
     - [ ] **Social Networks:** Finding "Friends of Friends" (2nd degree connections).
+
+
+
 ### 3.2 Traversal Techniques
 - [ ] **In-order Traversal** (Left, Root, Right)
 - [ ] **Pre-order Traversal** (Root, Left, Right)
