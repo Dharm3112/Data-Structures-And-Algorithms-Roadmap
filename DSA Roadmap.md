@@ -294,11 +294,59 @@ Foundational concepts for solving complex problems.
 ## ⚡ Phase 6: Optimization Techniques (Problem Solving Patterns)
 These are specific patterns frequently asked in coding interviews to optimize solutions.
 
-- [ ] **Two Pointers** (Iterating with two references)
-- [ ] **Sliding Window** (Sub-array/substring problems)
-- [ ] **Prefix / Suffix Sums** (Pre-computation for range queries)
 
----
+**1. Two Pointers**
+*Using two references (indices) to traverse data, typically to reduce nested loops.*
+- [ ] **Opposite Ends (Meet in the Middle):**
+    - [ ] **Scenario:** Sorted arrays.
+    - [ ] **Logic:** Start `left=0`, `right=n-1`. Move them toward each other based on a condition.
+    - [ ] **Classic Problem:** Two Sum II (Input array is sorted), Reverse a String, Valid Palindrome.
+- [ ] **Same Direction (Fast & Slow / Read & Write):**
+    - [ ] **Scenario:** Modifying an array in-place or detecting cycles.
+    - [ ] **Logic:** `slow` pointer builds the valid data, `fast` pointer explores.
+    - [ ] **Classic Problem:** Remove Duplicates from Sorted Array, Move Zeroes, Linked List Cycle Detection.
+- [ ] **Merging Logic:**
+    - [ ] **Scenario:** Comparing two separate lists.
+    - [ ] **Classic Problem:** Merge Sorted Array, Intersection of Two Arrays.
+
+
+
+**2. Sliding Window**
+*Maintaining a subset of elements (a "window") that moves across the data structure.*
+- [ ] **Fixed Size Window:**
+    - [ ] **Logic:** Window size `k` is constant. Slide one step: remove element entering from left, add element entering from right.
+    - [ ] **Classic Problem:** Maximum Sum Subarray of size K, Find all Anagrams in a string.
+- [ ] **Dynamic / Variable Size Window:**
+    - [ ] **Logic:** Expand the window (`right++`) until a condition breaks, then shrink the window (`left++`) until valid again.
+    - [ ] **Classic Problem:** Longest Substring Without Repeating Characters, Minimum Window Substring, Longest Subarray with sum $\le$ K.
+- [ ] **Auxiliary Data:** Using a Hash Map or Set inside the window to track frequencies.
+
+
+
+**3. Prefix / Suffix Sums**
+*Pre-computing cumulative totals to answer range queries in $O(1)$ time.*
+- [ ] **1D Prefix Sum:**
+    - [ ] **Concept:** Create array `P` where `P[i] = A[0] + ... + A[i]`.
+    - [ ] **Query Formula:** Sum from `L` to `R` = `P[R] - P[L-1]`.
+    - [ ] **Classic Problem:** Range Sum Query (Immutable), Find the Pivot Index.
+- [ ] **Suffix Sum:**
+    - [ ] **Concept:** Cumulative sum starting from the *end* of the array.
+    - [ ] **Classic Problem:** Product of Array Except Self.
+- [ ] **2D Prefix Sum:**
+    - [ ] **Concept:** Pre-computing sums for sub-matrices.
+    - [ ] **Classic Problem:** Matrix Block Sum, Range Sum Query 2D.
+- [ ] **Difference Array:**
+    - [ ] **Concept:** efficient range updates (adding X to indices L through R).
+
+
+
+### 💡 Pattern Recognition Cheat Sheet
+
+* **Sorted Array + Target Value?**  Try **Two Pointers**.
+* **Subarray / Substring problem?**  Try **Sliding Window**.
+* **Range Queries (Sum of index i to j)?**  Try **Prefix Sums**.
+* **Cycle detection?**  Try **Fast & Slow Pointers**.
+
 
 
 
