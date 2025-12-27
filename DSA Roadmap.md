@@ -245,7 +245,6 @@ Techniques to rearrange data in a specific order.
 Foundational concepts for solving complex problems.
 
 
-
 **1. Recursion**
 *The art of a function calling itself to solve smaller instances of the same problem.*
 - [ ] **The Three Laws:**
