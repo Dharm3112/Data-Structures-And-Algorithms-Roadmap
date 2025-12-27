@@ -16,6 +16,8 @@ Before diving into DSA, ensure you are comfortable with the syntax and basics of
 ## 🏗️ Phase 2: Data Structures (The Building Blocks)
 Learn how data is stored and organized.
 
+
+
 ### 2.1 🧱 Linear Data Structures
 Sequential organization of data.
 
@@ -51,6 +53,8 @@ Sequential organization of data.
 - [ ] **Circular Queue:** Implementing a Ring Buffer (using modulo operator `%`).
 - [ ] **Double-Ended Queue (Deque):** Insertion/Deletion at both ends.
 - [ ] **Priority Queue:** (Introduction only) Elements processed by priority, not arrival.
+
+
 
 ### 2.2 🌳 Non-Linear Data Structures
 Hierarchical or interconnected organization of data.
@@ -96,6 +100,8 @@ Hierarchical or interconnected organization of data.
     - [ ] **Dijkstra’s Algorithm:** Shortest path in weighted graphs (No negative weights).
     - [ ] **Bellman-Ford:** Shortest path with negative weights.
     - [ ] **Prim’s / Kruskal’s:** Minimum Spanning Tree (MST).
+
+
 
 ### 2.3 CRUD Operations
 Master the basic operations for all the structures above.
