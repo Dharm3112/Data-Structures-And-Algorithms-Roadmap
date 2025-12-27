@@ -52,7 +52,7 @@ Sequential organization of data.
 - [ ] **Double-Ended Queue (Deque):** Insertion/Deletion at both ends.
 - [ ] **Priority Queue:** (Introduction only) Elements processed by priority, not arrival.
 
-### 2.2 Non-Linear Data Structures
+### 2.2 🌳 Non-Linear Data Structures
 Hierarchical or interconnected organization of data.
 
 
