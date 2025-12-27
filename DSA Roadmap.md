@@ -355,7 +355,56 @@ These are specific patterns frequently asked in coding interviews to optimize so
 ## 💼 Phase 7: Interview Preparation
 Bringing it all together.
 
-- [ ] Solve problems on LeetCode / HackerRank / CodeForces
-- [ ] Practice Time Complexity Analysis (Big O Notation)
-- [ ] Practice Space Complexity Analysis
-- [ ] Mock Interviews
+### 💼 Interview Preparation
+
+**1. Strategic Problem Solving (The "Grind")**
+*Don't just solve random problems; solve patterns.*
+- [ ] **LeetCode / HackerRank:**
+    - [ ] **Blind 75 / NeetCode 150:** Focus on these curated lists. They cover 90% of interview patterns.
+    - [ ] **Frequency:** Solve 1-2 problems daily. Consistency > Intensity.
+    - [ ] **Topic-wise vs. Random:** Start topic-wise (e.g., 10 Array problems), then switch to "Random" to simulate real interviews where you don't know the topic.
+- [ ] **CodeForces / CodeChef (Optional):**
+    - [ ] Good for improving speed and handling edge cases, but often harder than standard job interviews.
+- [ ] **The "15-Minute Rule":** If you are stuck for 15 minutes without an idea, look at the solution logic (not the code), understand it, close it, and try to write it yourself.
+
+**2. Time Complexity Analysis (Big O Notation)**
+*You must be able to state the complexity of your code immediately after writing it.*
+- [ ] **Master the Common Classes:**
+    - [ ] **$O(1)$:** Constant (Hash Map lookup, Array access).
+    - [ ] **$O(\log N)$:** Logarithmic (Binary Search).
+    - [ ] **$O(N)$:** Linear (Simple Loop).
+    - [ ] **$O(N \log N)$:** Linearithmic (Sorting: Merge/Quick/Heap Sort).
+    - [ ] **$O(N^2)$:** Quadratic (Nested Loops - Bubble/Insertion Sort).
+    - [ ] **$O(2^N)$:** Exponential (Recursion without DP).
+- [ ] **Analyzing Loops:** Identifying "how many times this loop runs."
+- [ ] **Analyzing Recursion:** (Branches) ^ (Depth).
+
+
+
+[Image of Big O Complexity Chart]
+
+
+**3. Space Complexity Analysis**
+*Often neglected, but critical for "Optimization" questions.*
+- [ ] **Auxiliary Space:** Extra memory you use (Arrays, Hash Maps).
+- [ ] **Stack Space:** Memory used by recursion (Call Stack).
+- [ ] **In-Place Algorithms:** Algorithms that use $O(1)$ extra space (modifying the input array directly).
+
+**4. Mock Interviews**
+*Coding on a whiteboard/Google Doc is very different from an IDE with auto-complete.*
+- [ ] **Behavioral Round:**
+    - [ ] **STAR Method:** Situation, Task, Action, Result (for "Tell me about a time..." questions).
+    - [ ] Prepare an "Elevator Pitch" (Introduction).
+- [ ] **Technical Mock Rounds:**
+    - [ ] **Pramp / Interviewing.io:** Platforms to practice with peers or engineers.
+    - [ ] **"Rubber Duck" Debugging:** Explain your code out loud line-by-line as if teaching a child.
+    - [ ] **Whiteboard Coding:** Practice writing code without syntax highlighting or a compiler.
+
+```
+
+### 🎯 The "Game Plan" Summary
+
+1. **Learn:** Read the concept (e.g., Sliding Window).
+2. **Apply:** Solve 5-10 easy/medium problems on that concept.
+3. **Review:** Check other people's solutions to see if they did it cleaner/faster.
+4. **Repeat:** Move to the next concept.
